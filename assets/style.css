@@ -1,0 +1,220 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;519;600&family=Poppins:wght@300&display=swap');
+/*font-family: 'Oswald', sans-serif;*/
+*{
+  box-sizing:border-box;
+  margin:0;/*edge of box out*/
+  padding:20;/*edge of box in it is padding*/
+  font-family:'Oswald', sans-serif;
+}
+.tc{
+	text-align:center;}
+.tr{
+ text-align:right}
+.tl{
+  text-align: left}
+}
+
+h2,h3{
+font-weight:100;
+font-family: 'Poppins', sans-serif;
+color:rgb(19, 19, 20);
+}
+h2{
+  font-size:50px;
+}
+
+}
+
+h3{
+  font-size:30px;
+}
+
+header {
+  background:#92e86f;
+  position:relative;
+}
+
+
+header h1{
+ font-family: 'Oswald', sans-serif; 
+	font-size:40px;
+	font-weight:normal;
+	color:#fbfbff;
+	padding:40px;/*height of header*/
+}
+
+nav{
+  position:absolute;
+  top:80px;
+  right:35px;
+}
+p {
+  font-size: 20px;
+}
+nav ul{
+  list-style-type:none;
+}
+nav li{
+display: inline;
+border-right: 1px solid #bbb;
+}
+
+nav a{
+  /*display:inline-block;/*一块一块的让导航看起来 it makes navigation look like block*/
+  text-decoration:none;
+  /*background:#747d6a;*/
+  color:#ffffff;
+  padding:24px;
+  font-size:15px;
+}
+nav a:hover{
+  background:#;
+  color:#ffac30;
+}
+
+/*botton*/
+.btn{
+  display:inline-block;
+  width:100px; height: 40px;
+  font-size:20px;
+  background:#92e86f;
+  text-transform:uppercase;
+  border:none;
+  padding:10px 20px 20x 20px;
+  text-decoration: none;
+  border-radius:3px;
+}
+
+.btn2{
+  display:inline-block;
+  width:120px; height: 50px;
+  font-size:20px;
+  background:#ffac30;
+  
+  border:none;
+  padding:10px 25px 25x 25px;
+  text-decoration: none;
+  border-radius:3px;
+}
+.btn2:hover {
+  opacity: 0.8;
+}
+.fa fa-plus-square{
+  font-size:30px;
+}
+.img{
+  
+}
+
+.container{
+	/* border:1px solid #000; */
+	max-width:1200;
+	margin:20px auto;
+ 
+	display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  }
+
+
+.texthero{
+display:center;
+justify-content: center;
+padding:10px;
+
+}
+.c33{
+	width:33.333333%;
+}
+
+.c50{
+	width:50%;
+}
+.c60{
+  width:60%;
+}
+.c100{
+	width:100%;
+}
+.c40{
+  width: 40%;
+}
+.c25{
+  width: 25%
+}
+.p25{
+	padding:25px;
+}
+//p26 is for the meat
+.p26{
+  padding:20px;
+}
+//also for meat
+.c101{
+  width:33.3%;
+}
+.p60{
+  padding: 60px;
+  margin-bottom: 0;
+}
+
+
+
+.cards{
+  width:auto;
+  height: auto;
+  box-shadow:0 2px 4px 0 rgba(0,0,0,0.2);
+  transition:0.2s;
+  padding:20px;
+  margin:20px;
+  margin-buttom: 0;
+  background: #ffffff;
+  
+  }
+
+.cards:hover{
+  box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: rgb(71, 105, 20);
+  animation:2s zoomin linear 1;
+  transform: scale(1,1)
+
+}
+.lightgreen{
+background:#9fdb74;
+}
+
+
+@media only screen and (mini-width: 414px){
+	header h1{
+		text-align:center;
+    font-size: 40px;
+	}
+	nav{
+		position:static;
+		margin:0 auto;
+		max-width:457px;
+		padding-bottom:20px;
+  }
+
+	nav a{
+		width:150px;
+    font-size: 24px;
+
+	}
+
+  .container{
+  display: flex;
+  width: 100%;
+
+  }
+ 
+  texthero{
+    display: block;
+    width:100%
+    justify-content: center;
+  }
+
+
